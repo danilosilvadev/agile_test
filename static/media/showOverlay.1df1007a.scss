@@ -39,10 +39,10 @@
 
   &__overlay {
     @include size(100%);
-    background-image: radial-gradient(transparent 1%, #000 65%);
+    background-image: radial-gradient(transparent 35%, #000 60%);
     position: fixed;
-    top: 30vh;
-    transform: scale(3) rotate(20deg) skewY(-5deg);
-    transform-origin: 100% 100%;
+    top: 5vh;
+    transform: scale(3) rotate(7deg) skewY(5deg);
+    transform-origin: 90% 90%;
   }
 }
