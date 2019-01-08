@@ -1,0 +1,57 @@
+@import '../../utils/sass/index';
+@import '../../assets/css/colors';
+
+.rc-tabs-nav-wrap {
+  border-bottom: 1px solid #fff;
+  padding-right: rem(1600);
+}
+
+.rc-tabs-tab-active,
+.rc-tabs-tab-active:hover {
+  color: $c-white !important;
+}
+
+.rc-tabs-tab:hover {
+  color: $c-white !important;
+}
+
+.rc-tabs-ink-bar,
+.rc-tabs-ink-bar-animated {
+  background-color: $c-green-hover !important;
+}
+
+.rc-tabs-tab {
+  font-weight: bold;
+}
+
+.rc-tabs-top
+.rc-tabs-bar {
+  border-style: none;
+}
+
+.rc-tabs-top {
+  border-style: none;
+}
+
+// Scrollbar custom
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

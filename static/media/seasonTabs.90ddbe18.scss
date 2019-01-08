@@ -1,0 +1,18 @@
+@import '../../../utils/sass/index';
+
+.ag-season-tabs {
+  &__episode {
+    background: none;
+    border-bottom: 0.1px solid #fff;
+    color: #fff;
+    display: block;
+    font-size: rem(14);
+    font-weight: bold;
+    text-align: left;
+  }
+
+  &__play-icon {
+    height: 30px;
+    width: 30px;
+  }
+}

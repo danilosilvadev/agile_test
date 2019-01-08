@@ -1,0 +1,17 @@
+@import './utils/sass/index';
+@import './assets/css/fonts';
+@import './assets/css/colors';
+
+html {
+  font-family: 'Nunito';
+  font-size: 8;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+svg path *:not(path) {
+  fill: inherit;
+}

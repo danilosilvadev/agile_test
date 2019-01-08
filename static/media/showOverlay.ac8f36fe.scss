@@ -1,0 +1,48 @@
+@import '../../utils/sass/index';
+@import '../../assets/css/colors';
+
+.ag-container {
+  &__background-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+  }
+
+  &__header {
+    z-index: 1;
+  }
+
+  &__title {
+    font-size: rem(32);
+    font-weight: bold;
+  }
+
+  &__info-cast {
+    background-color: $c-secondary-background;
+  }
+
+  &__seasons {
+    color: $c-main-grey-text;
+    max-height: 55vh;
+    overflow: auto;
+    width: 30%;
+
+    .rc-tabs-top .rc-tabs-tab {
+      margin-right: 0;
+    }
+
+    .rc-tabs-nav-wrap {
+      border: 0;
+    }
+  }
+
+  &__overlay {
+    @include size(100%);
+    background-image: radial-gradient(transparent 1%, #000 65%);
+    position: fixed;
+    top: 30vh;
+    transform: scale(3) rotate(20deg) skewY(-5deg);
+    transform-origin: 100% 100%;
+  }
+}

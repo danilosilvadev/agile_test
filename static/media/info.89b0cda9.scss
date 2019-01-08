@@ -1,0 +1,26 @@
+@import '../../../utils/sass/index';
+@import '../../../assets/css/colors';
+
+.ag-info {
+  background-color: $c-primary-background;
+  bottom: 0;
+  color: $c-main-grey-text;
+  font-size: rem(12);
+  font-weight: bold;
+  height: 30vh;
+  position: fixed;
+  top: 70%;
+  width: 100%;
+
+  &__icons-list {
+    text-align: center;
+  }
+
+  &__icons-list > li {
+    padding: rem(16);
+  }
+
+  &__icons-text {
+    padding-top: rem(8);
+  }
+}
